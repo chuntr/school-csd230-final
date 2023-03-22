@@ -15,7 +15,24 @@ public class MainActivity extends AppCompatActivity {
     private TextView mReplyHeadTextView;
     private TextView mReplyTextView;
 
-    public static final String EXTRA_MESSAGE = "com.example.android.twoactivities.extra.MESSAGE";
+    private val surfaceTextureListener = object : TextureView.SurfaceTextureListener {
+        override fun onSurfaceTextureAvailable(texture: SurfaceTexture, width: Int, height: Int) {
+
+        }
+        override fun onSurfaceTextureSizeChanged(texture: SurfaceTexture, width: Int, height: Int) {
+
+        }
+
+        override fun onSurfaceTextureDestroyed(texture: SurfaceTexture) {
+
+        }
+        override fun onSurfaceTextureUpdated(texture: SurfaceTexture) {
+
+        }
+    }
+
+    public static final String EXTRA_MESSAGE = "com.example.distributingdata.extra.MESSAGE";
+    public static final int TEXT_REQUEST = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
