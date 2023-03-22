@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">DistrubutingData</string>
+    <string name="app_name">Plant Finder</string>
     <string name="title_activity_results">ResultsActivity</string>
-    <string name="button_search">Submit Photo</string>
+    <string name="button_submit">Submit Photo</string>
     <string name="button_take_photo">Take Photo</string>
     <!-- Strings used for fragments for navigation -->
     <string name="camera_label">Camera</string>
