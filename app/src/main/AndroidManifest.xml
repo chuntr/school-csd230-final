@@ -59,20 +59,6 @@
         </activity>
 
         <activity
-            android:name="GalleryPicker" android:label="@string/gallery_picker_label"
-            android:configChanges="orientation|keyboardHidden"
-            android:icon="@drawable/ic_launcher_gallery"
-            android:clearTaskOnLaunch="true"
-            android:taskAffinity="android.task.pictures">
-        </activity>
-
-        <activity
-            android:name="ImageGallery" android:label="@string/gallery_label"
-            android:configChanges="orientation|keyboardHidden"
-            android:icon="@drawable/ic_launcher_gallery">
-        </activity>
-
-        <activity
             android:name="CropImage"
             android:process=":CropImage"
             android:configChanges="orientation|keyboardHidden"
