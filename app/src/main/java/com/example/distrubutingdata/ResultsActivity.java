@@ -45,4 +45,9 @@ public class ResultsActivity extends AppCompatActivity {
         return NavigationUI.navigateUp(navController, appBarConfiguration)
                 || super.onSupportNavigateUp();
     }
+
+    /*
+    public fun startActivityForResult(Intent intent, const val text_request) {
+
+    }*/
 }
